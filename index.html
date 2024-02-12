@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizador de Sites</title>
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Centralizador de Sites</h1>
+        <div id="search-area">
+            <select id="select-site" onchange="alterarTema()">
+                <option value="google">Google</option>
+                <option value="youtube">YouTube</option>
+                <option value="spotify">Spotify</option>
+                <option value="instagram">Instagram</option>
+            </select>
+            <input type="text" id="termo" placeholder="Pesquise na internet">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

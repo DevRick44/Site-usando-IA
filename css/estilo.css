@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+
+#container {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    transition: all 0.3s ease;
+}
+
+#search-area {
+    margin-bottom: 20px;
+}
+
+select, input[type="text"], button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-right: 10px;
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:focus {
+    outline: none;
+}
+
+body[data-site="google"] {
+    background-color: #add8e6; /* Azul anil claro para o Google */
+    color: #333333; /* Cor do texto para o Google */
+}
+
+body[data-site="youtube"] {
+    background-color: #ff9999; /* Vermelho pastel leve para o YouTube */
+    color: #333333; /* Cor do texto para o YouTube */
+}
+
+body[data-site="spotify"] {
+    background-color: #7fffd4; /* Verde água claro para o Spotify */
+    color: #333333; /* Cor do texto para o Spotify */
+}
+
+body[data-site="instagram"] {
+    background-color: #ffc0cb; /* Rosa chiclete claro para o Instagram */
+    color: #333333; /* Cor do texto para o Instagram */
+}
