@@ -4,7 +4,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    color: #333333;
+    background-color: #add8e6;
+    color: #2381a0;
     font-family: Arial, sans-serif;
     transition: all 0.3s ease;
 }
@@ -20,7 +21,7 @@ body {
 h1 {
     margin-bottom: 20px;
     font-size: 32px;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 
 #search-area {
@@ -32,7 +33,7 @@ select, input[type="text"], button {
     border: 1px solid #ccc;
     border-radius: 6px;
     margin-right: 10px;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 
 button {
@@ -54,20 +55,20 @@ button:focus {
 
 body[data-site="google"] {
     background-color: #add8e6; /* Azul anil claro para o Google */
-    color: #333333; /* Cor do texto para o Google */
+    color: #2381a0; /* Cor do texto para o Google */
 }
 
 body[data-site="youtube"] {
     background-color: #ff9999; /* Vermelho pastel leve para o YouTube */
-    color: #333333; /* Cor do texto para o YouTube */
+    color: #a54949; /* Cor do texto para o YouTube */
 }
 
 body[data-site="spotify"] {
     background-color: #7fffd4; /* Verde água claro para o Spotify */
-    color: #333333; /* Cor do texto para o Spotify */
+    color: #49aa8a; /* Cor do texto para o Spotify */
 }
 
 body[data-site="instagram"] {
     background-color: #ffc0cb; /* Rosa chiclete claro para o Instagram */
-    color: #333333; /* Cor do texto para o Instagram */
+    color: #b65565; /* Cor do texto para o Instagram */
 }

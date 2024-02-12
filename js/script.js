@@ -21,7 +21,7 @@ function pesquisar() {
             url = 'https://open.spotify.com/search/' + termo;
             break;
         case 'instagram':
-            url = 'https://www.instagram.com/explore/tags/' + termo;
+            url = 'https://www.instagram.com/' + termo + '/';
             break;
         default:
             break;
