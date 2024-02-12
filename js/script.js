@@ -23,6 +23,9 @@ function pesquisar() {
         case 'instagram':
             url = 'https://www.instagram.com/' + termo + '/';
             break;
+        case 'facebook':
+            url = 'https://www.facebook.com/search/top?q=' + termo;
+            break;
         default:
             break;
     }

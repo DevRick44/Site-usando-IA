@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #add8e6;
-    color: #2381a0;
+    color: #444;
     font-family: Arial, sans-serif;
     transition: all 0.3s ease;
 }
@@ -55,20 +55,25 @@ button:focus {
 
 body[data-site="google"] {
     background-color: #add8e6; /* Azul anil claro para o Google */
-    color: #2381a0; /* Cor do texto para o Google */
+    color: #444; /* Cor do texto para o Google */
 }
 
 body[data-site="youtube"] {
     background-color: #ff9999; /* Vermelho pastel leve para o YouTube */
-    color: #a54949; /* Cor do texto para o YouTube */
+    color: #444; /* Cor do texto para o YouTube */
 }
 
 body[data-site="spotify"] {
     background-color: #7fffd4; /* Verde água claro para o Spotify */
-    color: #49aa8a; /* Cor do texto para o Spotify */
+    color: #444; /* Cor do texto para o Spotify */
 }
 
 body[data-site="instagram"] {
     background-color: #ffc0cb; /* Rosa chiclete claro para o Instagram */
-    color: #b65565; /* Cor do texto para o Instagram */
+    color: #444; /* Cor do texto para o Instagram */
+}
+
+body[data-site="facebook"] {
+    background-color: #6b71b9; /* Rosa chiclete claro para o Instagram */
+    color: #444; /* Cor do texto para o Instagram */
 }
