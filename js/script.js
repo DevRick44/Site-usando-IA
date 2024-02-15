@@ -36,7 +36,6 @@ function pesquisar() {
 function alterarTema() {
     var selectSite = document.getElementById('select-site');
     var site = selectSite.options[selectSite.selectedIndex].value;
-    var body = document.body;
 
-    body.setAttribute('data-site', site);
+    document.body.setAttribute('data-site', site);
 }
